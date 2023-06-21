@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <h1 class="mb-4 text-3xl font-bold text-blue-600 underline">
+  <h1 class="font-poppins mb-4 text-3xl font-bold text-blue-600 underline">
     Tailwind CSS 3 with vue js 3
   </h1>
   <button class="px-6 py-2 text-sm text-green-100 bg-indigo-600 rounded">
