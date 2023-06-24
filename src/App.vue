@@ -1,6 +1,12 @@
 <template>
-  <button class="px-6 py-2 text-sm text-green-100 bg-indigo-600 rounded">
-    {{ $t("welcome") }}
-  </button>
+  <div class="flex items-center justify-center">
+    <div class="relative w-full max-w-lg">
+      <navigation-bar />
+    </div>
+  </div>
   <router-view />
 </template>
+
+<script setup lang="ts">
+import NavigationBar from "@/components/NavigationBar.vue";
+</script>
